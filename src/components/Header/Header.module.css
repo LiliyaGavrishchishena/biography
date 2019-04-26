@@ -1,0 +1,30 @@
+.header {
+  background-color: #0070af;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 8px;
+}
+
+.nav {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 290px;
+  padding: 0 1.5em;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 940px;
+  }
+}

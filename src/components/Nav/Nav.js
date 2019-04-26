@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.css';
 
 const Nav = ({ items = [] }) => (
-  <nav className={styles.navigation__items}>
+  <nav className={styles.nav}>
     <ul className={styles.list}>
       {items.map(({ name, path }) => (
         <li key={name} className={styles.link}>

@@ -1,10 +1,12 @@
 import React from 'react';
+// styles
+import styles from './AsyncNewsPage.module.css';
 
 const AsyncNewsPage = () => (
   <div>
-    <ul>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+    <ul className={styles.news}>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,
@@ -18,8 +20,8 @@ const AsyncNewsPage = () => (
           obcaecati?
         </p>
       </li>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,
@@ -33,8 +35,8 @@ const AsyncNewsPage = () => (
           obcaecati?
         </p>
       </li>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,
@@ -48,8 +50,8 @@ const AsyncNewsPage = () => (
           obcaecati?
         </p>
       </li>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,
@@ -63,8 +65,8 @@ const AsyncNewsPage = () => (
           obcaecati?
         </p>
       </li>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,
@@ -78,8 +80,8 @@ const AsyncNewsPage = () => (
           obcaecati?
         </p>
       </li>
-      <li>
-        <h3>Lorem ipsum dolor Vero rerum est sit.</h3>
+      <li className={styles.item}>
+        <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
           quos quia velit perspiciatis vero harum nihil. Vero rerum est sit,

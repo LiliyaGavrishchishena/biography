@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 5em;
+  background-color: #0070af;
+  color: #fff;
+}
+
+.container {
+  max-width: 290px;
+  padding: 1rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 940px;
+  }
+}

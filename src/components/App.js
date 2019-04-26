@@ -10,6 +10,9 @@ import routes from '../configs/routes';
 // pages
 import HomePage from '../pages/HomePage';
 
+// styles
+import styles from './App.module.css';
+
 const AsyncNewsPage = lazy(() =>
   import('../pages/AsyncNewsPage' /* webpackChunkName: "news-page" */),
 );
@@ -22,8 +25,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header />
+      <div className={styles.document}>
+        <Header className={styles.main} />
         <Suspense fallback={Spiner}>
           <Switch>
             <Route exact path={routes.MAIN} component={HomePage} />
@@ -32,7 +35,7 @@ class App extends Component {
             <Redirect to="/" />
           </Switch>
         </Suspense>
-        <Footer />
+        <Footer className={styles.footer} />
       </div>
     );
   }

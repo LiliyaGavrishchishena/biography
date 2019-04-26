@@ -1,0 +1,12 @@
+.simpleSlider {
+  height: 400px;
+  margin-bottom: 5rem;
+}
+.item {
+  height: 400px;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+}

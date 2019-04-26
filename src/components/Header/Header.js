@@ -9,8 +9,10 @@ import styles from './Header.module.css';
 
 const Header = () => (
   <header className={styles.header}>
-    <Logo />
-    <Nav items={navItems} />
+    <div className={styles.container}>
+      <Logo className={styles.logo} />
+      <Nav items={navItems} />
+    </div>
   </header>
 );
 
