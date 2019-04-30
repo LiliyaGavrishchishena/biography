@@ -1,0 +1,10 @@
+.map {
+  width: 100%;
+  height: 300px;
+}
+
+.marker {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}

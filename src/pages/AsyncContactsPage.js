@@ -1,8 +1,13 @@
 import React from 'react';
+// componens
+import Map from '../components/Map/Map';
+// styles
+import styles from './AsyncContactsPage.module.css';
 
 const AsyncContactsPage = () => (
-  <div>
-    <h3>My contacts</h3>
+  <div className={styles.projects}>
+    <h3 className={styles.title}>My contacts</h3>
+    <Map />
   </div>
 );
 

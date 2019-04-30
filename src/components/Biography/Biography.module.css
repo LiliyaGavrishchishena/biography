@@ -1,5 +1,31 @@
 .biography {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 5rem;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.biographyText {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: justify;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .biography {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1440px) {
 }

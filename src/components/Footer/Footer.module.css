@@ -1,25 +1,44 @@
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1em 5em;
   background-color: #0070af;
   color: #fff;
 }
 
 .container {
-  max-width: 290px;
-  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-grow: 1 1;
+}
+
+.contacts li {
+  padding: 25px;
+  margin-right: 5px;
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 690px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 940px;
+    max-width: 990px;
   }
+}
+
+.phone {
+  display: flex;
+}
+
+.mail {
+  display: flex;
+}
+
+.home {
+  display: flex;
 }

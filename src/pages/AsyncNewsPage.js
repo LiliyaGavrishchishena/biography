@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './AsyncNewsPage.module.css';
 
 const AsyncNewsPage = () => (
-  <div>
+  <div className={styles.anim}>
     <ul className={styles.news}>
       <li className={styles.item}>
         <h3 className={styles.title}>Lorem ipsum dolor Vero rerum est sit.</h3>

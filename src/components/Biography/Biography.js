@@ -10,7 +10,8 @@ const Biography = () => (
       <img src={foto1} alt="Biography" />
     </div>
     <div className={styles.biographyText}>
-      <p>
+      <h3 className={styles.title}>Biography</h3>
+      <p className={styles.text}>
         Prof. Dr. Jochem Müller wurde 1964 in Oberrodach / Bayern geboren. Das
         Geburtsjahr war nach dem chinesischen Horoskop das Jahr des Drachens.
         Der Drache ist in China eines der stärksten Glückssymbole überhaupt.

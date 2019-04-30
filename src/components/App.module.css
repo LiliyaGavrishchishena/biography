@@ -1,15 +1,15 @@
 .document {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-.header {
-  flex: 0 0 auto;
-}
-.main {
+.content {
   flex: 1 0 auto;
+  width: 100%;
 }
-.footer {
-  flex: 0 0 auto;
+
+.content:after {
+  display: block;
+  height: 0;
 }

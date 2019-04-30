@@ -1,4 +1,19 @@
 .logo {
   color: #fff;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    font-size: 34px;
+  }
 }

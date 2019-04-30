@@ -6,7 +6,7 @@ import styles from './Logo.module.css';
 
 const Logo = () => (
   <Link className={styles.logo} to={routes.MAIN}>
-    <div>Prof.Dr.Jochem Muller</div>
+    <div>Prof.Dr.Jochem Müller</div>
   </Link>
 );
 

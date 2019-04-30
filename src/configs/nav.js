@@ -18,7 +18,7 @@ export default [
     path: routes.TASKS,
   },
   {
-    name: 'Zur person',
+    name: 'Zurperson',
     path: routes.PERSON,
   },
   {
