@@ -30,7 +30,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
@@ -47,7 +47,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
@@ -64,7 +64,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
@@ -81,7 +81,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
@@ -98,7 +98,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
@@ -115,7 +115,7 @@ const AsyncNewsPage = () => (
               <h3 className={styles.title}>
                 Lorem ipsum dolor Vero rerum est sit.
               </h3>
-              <p>
+              <p className={styles.text}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti quos quia velit perspiciatis vero harum nihil. Vero
                 rerum est sit, iste enim culpa alias eligendi magnam ratione
