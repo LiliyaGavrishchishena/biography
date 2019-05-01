@@ -35,10 +35,36 @@
   display: flex;
 }
 
+.phone:before {
+  display: block;
+  content: ' ';
+  background-image: url('../../assets/svg/phone.svg');
+  background-size: 15px 15px;
+  height: 15px;
+  width: 15px;
+}
+
 .mail {
   display: flex;
 }
 
+.mail:before {
+  display: block;
+  content: ' ';
+  background-image: url('../../assets/svg/envelope.svg');
+  background-size: 15px 15px;
+  height: 15px;
+  width: 15px;
+}
 .home {
   display: flex;
+}
+
+.home:before {
+  display: block;
+  content: ' ';
+  background-image: url('../../assets/svg/home.svg');
+  background-size: 15px 15px;
+  height: 15px;
+  width: 15px;
 }

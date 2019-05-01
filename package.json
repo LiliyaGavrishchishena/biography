@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "google-map-react": "^1.1.4",
     "gsap": "^2.1.2",
     "react": "^16.8.6",
@@ -27,7 +28,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not ie <=10",
+      "not ie <=11",
       "not op_mini all"
     ],
     "development": [
