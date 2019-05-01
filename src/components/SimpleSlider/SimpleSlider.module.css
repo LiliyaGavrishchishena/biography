@@ -23,7 +23,7 @@
 .dots li button {
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: #000000;
   border-radius: 50%;
   border: none;
   cursor: pointer;

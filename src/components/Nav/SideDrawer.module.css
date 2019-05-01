@@ -38,6 +38,14 @@
   color: #3d3737;
 }
 
+.list {
+  padding: 15px;
+}
+
+.link {
+  margin-bottom: 30px;
+}
+
 @media (min-width: 769px) {
   .side {
     display: none;

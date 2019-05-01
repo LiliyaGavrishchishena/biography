@@ -13,7 +13,7 @@
 }
 
 .contacts li {
-  padding: 25px;
+  padding: 10px;
   margin-right: 5px;
 }
 
@@ -39,9 +39,10 @@
   display: block;
   content: ' ';
   background-image: url('../../assets/svg/phone.svg');
-  background-size: 15px 15px;
-  height: 15px;
-  width: 15px;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
 }
 
 .mail {
@@ -52,9 +53,10 @@
   display: block;
   content: ' ';
   background-image: url('../../assets/svg/envelope.svg');
-  background-size: 15px 15px;
-  height: 15px;
-  width: 15px;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
 }
 .home {
   display: flex;
@@ -64,7 +66,8 @@
   display: block;
   content: ' ';
   background-image: url('../../assets/svg/home.svg');
-  background-size: 15px 15px;
-  height: 15px;
-  width: 15px;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
 }
