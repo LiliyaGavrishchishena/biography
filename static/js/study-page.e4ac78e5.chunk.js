@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{110:function(e,n,t){"use strict";t.r(n);var u=t(0),a=t.n(u);n.default=function(){return a.a.createElement("div",null,a.a.createElement("h3",null,"Studierende"))}}}]);
+//# sourceMappingURL=study-page.e4ac78e5.chunk.js.map

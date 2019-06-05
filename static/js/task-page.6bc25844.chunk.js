@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{111:function(n,e,t){"use strict";t.r(e);var a=t(0),r=t.n(a);e.default=function(){return r.a.createElement("div",null,r.a.createElement("h3",null,"Unternehmen"))}}}]);
+//# sourceMappingURL=task-page.6bc25844.chunk.js.map

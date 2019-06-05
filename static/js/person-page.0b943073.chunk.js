@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{112:function(n,e,t){"use strict";t.r(e);var r=t(0),u=t.n(r);e.default=function(){return u.a.createElement("div",null,u.a.createElement("h3",null,"Zurperson"))}}}]);
+//# sourceMappingURL=person-page.0b943073.chunk.js.map
