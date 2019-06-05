@@ -2,7 +2,7 @@
   "name": "biography",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/LiliyaGavrishchishena/biography",
+  "homepage": "https://LiliyaGavrishchishena/github.io/biography",
   "dependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "gh-pages": "^2.0.1",
