@@ -7,7 +7,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "gh-pages": "^2.0.1",
     "google-map-react": "^1.1.4",
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "react": "^16.8.6",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
